@@ -52,7 +52,6 @@ export default class Clock implements Module {
         });
 
         this.fillTimeZones()
-        this.changeTimeZone()
 
         this.it = setInterval(() => {
 
